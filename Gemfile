@@ -61,4 +61,11 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# for the basic user model - Devise
 gem 'devise'
+# for handing permissions - Pundit
+
+# for creating API - Graphql
+gem 'graphql'
+
+gem 'graphiql-rails', group: :development
