@@ -1,0 +1,19 @@
+Guiding Thoughts Doc
+
+Initial Target Audience:
+  Players of Pathfinder 2e comfortable with web-apps
+
+How our audience uses the site:
+  - A user stores character sheets so they don't have to track paper
+    -- secondary goat: they use it for character creation
+  - A user writes back stories for characters so they and others can track them
+  - A user searches for other local players. 
+  - A user messages other players
+  - A user creates 'tables' wherein many players can gather
+  - A user shares characters at a table so others can see them.
+  - A user accesses an absent player's character sheet via the table.
+  - A user shares or hides certain aspects of their character from others (GM vs Player)
+  - A user creates a campaign wherein they write down various lore
+  - A user can share campaign data, in part of full, to a table for easy reference by all.
+
+
