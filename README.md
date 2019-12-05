@@ -1,9 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Project by a small team to build a webapp to connect Pen & Paper RPGers.
 
-Things you may want to cover:
+Using Rails, Graphql, with vue.js, GamerGuild will develop more while exploring our shared interest. 
+
 
 * Ruby version
 
