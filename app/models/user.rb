@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable,
          :confirmable
   before_validation username_generator
-  validates :first_name, :last_name, :username, presense: true
+  validates :first_name, :last_name, :username, :email, :password, presense: true
 
   def username_generator
     if self.username.nil? && self.first_name || self.last_name
