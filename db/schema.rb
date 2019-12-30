@@ -10,7 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_30_133658) do
+ActiveRecord::Schema.define(version: 2019_12_30_134706) do
+
+  create_table "biographies", force: :cascade do |t|
+    t.integer "character_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["character_id"], name: "index_biographies_on_character_id"
+  end
+
+  create_table "chapters", force: :cascade do |t|
+    t.integer "biography_id"
+    t.string "title"
+    t.text "synopsis"
+    t.text "content"
+    t.integer "order"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["biography_id"], name: "index_chapters_on_biography_id"
+  end
 
   create_table "characters", force: :cascade do |t|
     t.integer "user_id"
