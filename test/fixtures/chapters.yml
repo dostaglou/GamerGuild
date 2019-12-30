@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  biography: one
+  title: MyString
+  synopsis: MyText
+  content: MyText
+  order: 1
+
+two:
+  biography: two
+  title: MyString
+  synopsis: MyText
+  content: MyText
+  order: 1
